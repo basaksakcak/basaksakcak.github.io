@@ -4,6 +4,10 @@ title: Başak Sakçak
 
 # Başak Sakçak
 
-Welcome! I'm an Assistant Professor of Robotics at Maastricht University.  
+Welcome! I'm an Assistant Professor at Maastricht University.  
 
-- [Publications](./Publications.md)
+---
+
+## Contact & Links
+
+- [Publications](/publications/)

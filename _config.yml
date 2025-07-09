@@ -1,6 +1,3 @@
 title: Başak Sakçak
-description: Assistant Professor | Maastricht University
-theme: jekyll-theme-cayman
-
-header_pages:
-  - Publications.md
+description: Assistant Professor of Robotics | Maastricht University
+theme: jekyll-theme-minimal
