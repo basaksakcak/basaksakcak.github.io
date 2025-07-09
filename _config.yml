@@ -1,5 +1,6 @@
-theme: jekyll-theme-minimal
 title: Başak Sakçak
+description: Assistant Professor | Maastricht University
+theme: jekyll-theme-cayman
 
 header_pages:
   - Publications.md
