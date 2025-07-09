@@ -27,10 +27,13 @@
 
 
       <nav class="view">
+        {% assign header_paths = site.header_pages %}
         {% for page in site.pages %}
-        {% if page.path in site.header_pages %}
+        {% for path in header_paths %}
+        {% if page.path == path %}
         <a href="{{ page.url | relative_url }}">{{ page.title }}</a>
         {% endif %}
+        {% endfor %}
         {% endfor %}
       </nav>
 
