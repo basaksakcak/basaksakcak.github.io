@@ -1,2 +1,7 @@
 theme: jekyll-theme-minimal
 title: Başak Sakçak
+
+header_pages:
+  - Publications.md
+
+
