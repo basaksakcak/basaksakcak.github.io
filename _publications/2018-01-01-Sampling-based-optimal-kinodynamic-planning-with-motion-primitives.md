@@ -1,7 +1,6 @@
 ---
 title: "Sampling-based optimal kinodynamic planning with motion primitives"
 collection: publications
-category: manuscripts
 permalink: /publication/2018-01-01-Sampling-based-optimal-kinodynamic-planning-with-motion-primitives
 date: 2018-01-01
 venue: 'CoRR'
