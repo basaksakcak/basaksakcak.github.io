@@ -1,6 +1,7 @@
 ---
 title: "A mathematical characterization of minimally sufficient robot brains"
 collection: publications
+category: manuscripts
 permalink: /publication/2024-01-01-A-mathematical-characterization-of-minimally-sufficient-robot-brains
 date: 2024-01-01
 venue: 'The International Journal of Robotics Research'
