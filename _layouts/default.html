@@ -1,29 +1,31 @@
-<!DOCTYPE html>
-<html lang="{{ site.lang | default: 'en' }}">
+---
+layout: compress
+---
+
+{% include base_path %}
+
+<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 }}" class="no-js"{% if site.site_theme == "dark" %} data-theme="dark"{% endif %}>
   <head>
-    <meta charset="utf-8" />
-    <title>{{ page.title }} - {{ site.title }}</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}" />
+    {% include head.html %}
+    {% include head/custom.html %}
   </head>
 
   <body>
-    <div class="wrapper">
-      <header>
-        <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
-        <p>{{ site.description }}</p>
-      </header>
 
-      {% include nav.html %}
+    {% include browser-upgrade.html %}
+    {% include masthead.html %}
 
-      <main>
-        {{ content }}
-      </main>
+    {{ content }}
 
+    <div class="page__footer">
       <footer>
-        <hr />
-        <p><small>© {{ site.time | date: "%Y" }} {{ site.title }}. Theme by <a href="https://github.com/orderedlist/jekyll-theme-minimal">jekyll-theme-minimal</a>.</small></p>
+        {% include footer/custom.html %}
+        {% include footer.html %}
       </footer>
     </div>
+
+    {% include scripts.html %}
+
   </body>
 </html>
